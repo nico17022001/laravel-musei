@@ -14,5 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::get('/index', function () {
+    return view('artisti.index');
+})->name('index');
+
+Route::get('/show', function () {
+    return view('artisti.show');
+})->name('show');
+
+Route::get('/create', function () {
+    return view('artisti.create');
+})->name('create');
+
+Route::get('/edit', function () {
+    return view('artisti.edit');
+})->name('edit');
