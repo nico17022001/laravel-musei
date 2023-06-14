@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('artists', function (Blueprint $table) {
             $table->id();
             $table->string('name', 100);
-            $table->string('slug', 100)->unique();
+            $table->string('slug', 100);
             $table->string('birth_date', 100)->nullable();
             $table->string('death_date', 100)->nullable();
             $table->text('works');
