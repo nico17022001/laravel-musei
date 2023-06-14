@@ -1,2 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
+main{
+    background-image: url(/public/img/sfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+button{
+    width: 100px;
+}
+
+.n-container{
+    height: 100vh;
+}
