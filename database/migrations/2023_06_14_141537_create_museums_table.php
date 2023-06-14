@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('image');
             $table->string('theme');
             $table->string('price');
-            $table->double('ratings',2,1);
+            $table->string('ratings',3);
             $table->tinyInteger('rooms');
             $table->timestamps();
         });
