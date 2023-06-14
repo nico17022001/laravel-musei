@@ -2,17 +2,6 @@
 
 @section('content')
 
-{{--
-id
-name
-birth_date
-death_date
-opera
-nazionalità
-genere
-foto
---}}
-
 <div class="container p-5 d-flex flex-column align-items-center" style="min-height: calc(100vh - 90px - 150px);">
 
   <h1 class="py-4">Artisti</h1>
